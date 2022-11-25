@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+
+.lh-sm{
+    margin: auto;
+    max-width: 600px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.main{
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: rgb(97, 101, 102);
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .main{
+       flex-wrap: wrap;
+       gap: 10px;
+        background: #cbf0f0;
+        margin: auto;
+    }
+}
+
+    
+
+
